@@ -2,7 +2,7 @@
 function theBeatlesPlay(musicianArray, instrumentArray) {
   let result = [];
   
-  for (i = 0; i < musicianArray.length; i++) {
+  for (let i = 0; i < musicianArray.length; i++) {
     result += `${musicianArray[i]} plays ${instrumentArray[i]}`;
   }
   return result.split(' ');
