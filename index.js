@@ -24,7 +24,8 @@ function iLoveTheBeatles(num) {
   let i = 0;
   
   do {
-    result.push("I love the Beatles!")  
+    result.push("I love the Beatles!") 
+    i++;
   } while (i < num-15);
   
   return result;
