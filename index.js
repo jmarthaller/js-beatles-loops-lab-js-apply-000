@@ -18,3 +18,18 @@ function johnLennonFacts (facts) {
   }
   return result;
 }
+
+function iLoveTheBeatles(num) {
+  let result = [];
+  
+  do ()
+  
+  return result;
+}
+
+
+
+
+
+
+
