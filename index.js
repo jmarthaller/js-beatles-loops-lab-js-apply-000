@@ -5,5 +5,5 @@ function theBeatlesPlay(musicianArray, instrumentArray) {
   for (i = 0; i < musicianArray.length; i++) {
     result += `${musicianArray[i]} plays ${instrumentArray[i]}`;
   }
-  return result;
+  return result.split(' ');
 }
